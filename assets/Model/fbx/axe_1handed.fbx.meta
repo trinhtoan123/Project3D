@@ -1,0 +1,128 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ee7ee3d0-df09-427b-aa3b-0057637827b4",
+  "files": [],
+  "subMetas": {
+    "cb7fe": {
+      "importer": "gltf-mesh",
+      "uuid": "ee7ee3d0-df09-427b-aa3b-0057637827b4@cb7fe",
+      "displayName": "",
+      "id": "cb7fe",
+      "name": "Cube.12900.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 274
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "ee7ee3d0-df09-427b-aa3b-0057637827b4@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Model/fbx/barbarian_texture.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7886": {
+      "importer": "gltf-material",
+      "uuid": "ee7ee3d0-df09-427b-aa3b-0057637827b4@a7886",
+      "displayName": "",
+      "id": "a7886",
+      "name": "barbarian_texture.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "12bb9": {
+      "importer": "gltf-scene",
+      "uuid": "ee7ee3d0-df09-427b-aa3b-0057637827b4@12bb9",
+      "displayName": "",
+      "id": "12bb9",
+      "name": "axe_1handed.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Model/fbx/barbarian_texture.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "ee7ee3d0-df09-427b-aa3b-0057637827b4@12bb9",
+    "assetFinder": {
+      "meshes": [
+        "ee7ee3d0-df09-427b-aa3b-0057637827b4@cb7fe"
+      ],
+      "skeletons": [],
+      "textures": [
+        "ee7ee3d0-df09-427b-aa3b-0057637827b4@7d6ab"
+      ],
+      "materials": [
+        "ee7ee3d0-df09-427b-aa3b-0057637827b4@a7886"
+      ],
+      "scenes": [
+        "ee7ee3d0-df09-427b-aa3b-0057637827b4@12bb9"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

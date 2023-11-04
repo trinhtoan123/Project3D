@@ -1,0 +1,128 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2a906c7a-8604-4300-bb16-a848cc0949dd",
+  "files": [],
+  "subMetas": {
+    "c9186": {
+      "importer": "gltf-mesh",
+      "uuid": "2a906c7a-8604-4300-bb16-a848cc0949dd@c9186",
+      "displayName": "",
+      "id": "c9186",
+      "name": "Cylinder.031.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 172
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "2a906c7a-8604-4300-bb16-a848cc0949dd@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Model/fbx/rogue_texture.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dd405": {
+      "importer": "gltf-material",
+      "uuid": "2a906c7a-8604-4300-bb16-a848cc0949dd@dd405",
+      "displayName": "",
+      "id": "dd405",
+      "name": "rogue_texture.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0f5e4": {
+      "importer": "gltf-scene",
+      "uuid": "2a906c7a-8604-4300-bb16-a848cc0949dd@0f5e4",
+      "displayName": "",
+      "id": "0f5e4",
+      "name": "dagger.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Model/fbx/rogue_texture.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "2a906c7a-8604-4300-bb16-a848cc0949dd@0f5e4",
+    "assetFinder": {
+      "meshes": [
+        "2a906c7a-8604-4300-bb16-a848cc0949dd@c9186"
+      ],
+      "skeletons": [],
+      "textures": [
+        "2a906c7a-8604-4300-bb16-a848cc0949dd@7d6ab"
+      ],
+      "materials": [
+        "2a906c7a-8604-4300-bb16-a848cc0949dd@dd405"
+      ],
+      "scenes": [
+        "2a906c7a-8604-4300-bb16-a848cc0949dd@0f5e4"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

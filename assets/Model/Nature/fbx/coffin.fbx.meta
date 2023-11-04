@@ -1,0 +1,147 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "848b7f9d-709b-4c57-b9d7-75f164f4ee81",
+  "files": [],
+  "subMetas": {
+    "80929": {
+      "importer": "gltf-mesh",
+      "uuid": "848b7f9d-709b-4c57-b9d7-75f164f4ee81@80929",
+      "displayName": "",
+      "id": "80929",
+      "name": "Cube.118.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 56
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d828": {
+      "importer": "gltf-mesh",
+      "uuid": "848b7f9d-709b-4c57-b9d7-75f164f4ee81@9d828",
+      "displayName": "",
+      "id": "9d828",
+      "name": "Cube.119.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 260
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "848b7f9d-709b-4c57-b9d7-75f164f4ee81@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Model/Nature/fbx/halloweenbits_texture.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84fbd": {
+      "importer": "gltf-material",
+      "uuid": "848b7f9d-709b-4c57-b9d7-75f164f4ee81@84fbd",
+      "displayName": "",
+      "id": "84fbd",
+      "name": "HalloweenBits.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4c41b": {
+      "importer": "gltf-scene",
+      "uuid": "848b7f9d-709b-4c57-b9d7-75f164f4ee81@4c41b",
+      "displayName": "",
+      "id": "4c41b",
+      "name": "coffin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Model/Nature/fbx/halloweenbits_texture.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "848b7f9d-709b-4c57-b9d7-75f164f4ee81@4c41b",
+    "assetFinder": {
+      "meshes": [
+        "848b7f9d-709b-4c57-b9d7-75f164f4ee81@80929",
+        "848b7f9d-709b-4c57-b9d7-75f164f4ee81@9d828"
+      ],
+      "skeletons": [],
+      "textures": [
+        "848b7f9d-709b-4c57-b9d7-75f164f4ee81@7d6ab"
+      ],
+      "materials": [
+        "848b7f9d-709b-4c57-b9d7-75f164f4ee81@84fbd"
+      ],
+      "scenes": [
+        "848b7f9d-709b-4c57-b9d7-75f164f4ee81@4c41b"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

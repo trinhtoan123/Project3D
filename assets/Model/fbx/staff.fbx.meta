@@ -1,0 +1,128 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "550940dc-4a24-4621-a4c4-641255cbcd3d",
+  "files": [],
+  "subMetas": {
+    "d10bc": {
+      "importer": "gltf-mesh",
+      "uuid": "550940dc-4a24-4621-a4c4-641255cbcd3d@d10bc",
+      "displayName": "",
+      "id": "d10bc",
+      "name": "Cylinder.039.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 440
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "550940dc-4a24-4621-a4c4-641255cbcd3d@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Model/fbx/mage_texture.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d87d": {
+      "importer": "gltf-material",
+      "uuid": "550940dc-4a24-4621-a4c4-641255cbcd3d@3d87d",
+      "displayName": "",
+      "id": "3d87d",
+      "name": "mage_texture.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "155ec": {
+      "importer": "gltf-scene",
+      "uuid": "550940dc-4a24-4621-a4c4-641255cbcd3d@155ec",
+      "displayName": "",
+      "id": "155ec",
+      "name": "staff.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Model/fbx/mage_texture.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "550940dc-4a24-4621-a4c4-641255cbcd3d@155ec",
+    "assetFinder": {
+      "meshes": [
+        "550940dc-4a24-4621-a4c4-641255cbcd3d@d10bc"
+      ],
+      "skeletons": [],
+      "textures": [
+        "550940dc-4a24-4621-a4c4-641255cbcd3d@7d6ab"
+      ],
+      "materials": [
+        "550940dc-4a24-4621-a4c4-641255cbcd3d@3d87d"
+      ],
+      "scenes": [
+        "550940dc-4a24-4621-a4c4-641255cbcd3d@155ec"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

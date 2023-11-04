@@ -1,0 +1,128 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9",
+  "files": [],
+  "subMetas": {
+    "ba072": {
+      "importer": "gltf-mesh",
+      "uuid": "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@ba072",
+      "displayName": "",
+      "id": "ba072",
+      "name": "Cube.582.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 542
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Model/Nature/fbx/halloweenbits_texture.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84fbd": {
+      "importer": "gltf-material",
+      "uuid": "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@84fbd",
+      "displayName": "",
+      "id": "84fbd",
+      "name": "HalloweenBits.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c001": {
+      "importer": "gltf-scene",
+      "uuid": "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@0c001",
+      "displayName": "",
+      "id": "0c001",
+      "name": "skull_candle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Model/Nature/fbx/halloweenbits_texture.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@0c001",
+    "assetFinder": {
+      "meshes": [
+        "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@ba072"
+      ],
+      "skeletons": [],
+      "textures": [
+        "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@7d6ab"
+      ],
+      "materials": [
+        "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@84fbd"
+      ],
+      "scenes": [
+        "05ec2b9f-2e2c-40eb-96c7-68c2845fb0a9@0c001"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

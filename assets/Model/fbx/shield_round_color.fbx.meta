@@ -1,0 +1,128 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "47008182-30ea-4e26-b319-6919795a657b",
+  "files": [],
+  "subMetas": {
+    "a804d": {
+      "importer": "gltf-mesh",
+      "uuid": "47008182-30ea-4e26-b319-6919795a657b@a804d",
+      "displayName": "",
+      "id": "a804d",
+      "name": "Cylinder.013.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 284
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "47008182-30ea-4e26-b319-6919795a657b@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Model/fbx/knight_texture.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b38d3": {
+      "importer": "gltf-material",
+      "uuid": "47008182-30ea-4e26-b319-6919795a657b@b38d3",
+      "displayName": "",
+      "id": "b38d3",
+      "name": "knight_texture.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c645": {
+      "importer": "gltf-scene",
+      "uuid": "47008182-30ea-4e26-b319-6919795a657b@1c645",
+      "displayName": "",
+      "id": "1c645",
+      "name": "shield_round_color.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Model/fbx/knight_texture.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "47008182-30ea-4e26-b319-6919795a657b@1c645",
+    "assetFinder": {
+      "meshes": [
+        "47008182-30ea-4e26-b319-6919795a657b@a804d"
+      ],
+      "skeletons": [],
+      "textures": [
+        "47008182-30ea-4e26-b319-6919795a657b@7d6ab"
+      ],
+      "materials": [
+        "47008182-30ea-4e26-b319-6919795a657b@b38d3"
+      ],
+      "scenes": [
+        "47008182-30ea-4e26-b319-6919795a657b@1c645"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}
