@@ -23,6 +23,7 @@ export class EasyControllerEvent{
      * Dispatched when the movement controller stops moving
      */
     public static MOVEMENT_STOP:string = 'EasyControllerEvent.MOVEMENT_STOP';
+    
     public static ATTACK:string = 'EasyControllerEvent.ATTACK';
 
     
