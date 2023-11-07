@@ -54,14 +54,13 @@ export class CameraControler extends Component {
         }
         const t = Math.min(deltaTime / this.tweenTime, 1.0);
         //rotation
-        v3_1.set(this.node.eulerAngles);
-        Vec3.lerp(v3_1, v3_1, this._targetAngles, t);
-        this.node.setRotationFromEuler(v3_1);
+        // v3_1.set(this.node.eulerAngles);
+        // Vec3.lerp(v3_1, v3_1, this._targetAngles, t);
+        // this.node.setRotationFromEuler(v3_1);
 
         //lookat
         v3_1.set(this.target.worldPosition);
         v3_1.add(this.lookAtOffset);
-
         //len and position
         this.len = this.len * (1.0 - t) + this._targetLen * t;
         v3_2.set(this.node.forward);

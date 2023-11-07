@@ -23,8 +23,10 @@ export class CharacterControler extends Component {
   @property(AnimationClip)
   moveAnimClip: AnimationClip;
 
-  @property(AnimationClip)
-  attackAnimClip: AnimationClip;
+  @property([AnimationClip])
+  attackAnimationClip: AnimationClip[] = [];
+
+  indexAnimClip: number =0;
   
   _rigidBody: RigidBody;
   _isMoving: boolean = false;
@@ -70,20 +72,8 @@ export class CharacterControler extends Component {
       }
     }
   }
-  onLand() {  // chi khi jump
-    this._isInTheAir = false;
-    this._currentVerticalVelocity = 0.0;
-    this._curJumpTimes = 0;
-    if (this.moveAnimClip) {
-      if (this._isMoving) {
-        this._anim.crossFade(this.moveAnimClip.name, 0.5);
-      }
-      else {
-        this._anim.crossFade(this.idleAnimClip.name, 0.5);
-      }
-    }
-  }
   onMovement(degree: number, offset: number) {
+
     let cameraRotationY = 0;
     if (this.mainCamera) {
       cameraRotationY = this.mainCamera.node.eulerAngles.y;
@@ -94,7 +84,7 @@ export class CharacterControler extends Component {
     if (this._anim) {
       if (!this._isMoving && !this._isInTheAir) {
         if (this.moveAnimClip) {
-          this._anim.crossFade(this.moveAnimClip.name, 0.1);
+          this._anim.crossFade(this.moveAnimClip.name);
         }
       }
       if (this.moveAnimClip) {
@@ -106,8 +96,11 @@ export class CharacterControler extends Component {
 
   }
   onMovementRelease() {
+    if(this._isAttack){
+      return;
+    }
     if (!this._isInTheAir && this.idleAnimClip) {
-      this._anim?.crossFade(this.idleAnimClip.name, 0.5);
+      this._anim?.crossFade(this.idleAnimClip.name);
     }
     this._isMoving = false;
     if (this._rigidBody) {
@@ -116,24 +109,23 @@ export class CharacterControler extends Component {
 
   }
   onAttack(btnName:string) {
-    console.log(btnName);
-    if (btnName != 'btn_slot_0') {
+    if (btnName != 'btn_slot_0' || this._isAttack) {
       return;
     }
-    if(this.attackAnimClip){
-      this._anim?.crossFade(this.attackAnimClip.name,0.5);
-    }
+
+    this._anim?.crossFade(this.attackAnimationClip[0].name);
     this._isAttack = true;
 
   }
-  animationComplete(param:boolean) {
+  onCompleteanimation(param:boolean) {
     if (param){
       this._isAttack = false;
+
       if (this._isMoving) {
-        this._anim.crossFade(this.moveAnimClip.name, 0.5);
+        this._anim.crossFade(this.moveAnimClip.name);
       }
       else {
-        this._anim.crossFade(this.idleAnimClip.name, 0.5);
+        this._anim.crossFade(this.idleAnimClip.name);
       }
     }
     
